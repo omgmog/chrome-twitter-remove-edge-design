@@ -4,6 +4,7 @@ A chrome extension that simply removes the `.edge-design` class from the `body` 
 
 That class applies the _new_ rounded design to everything.
 
+![](twitter.png)
 
 ## Installation
 
