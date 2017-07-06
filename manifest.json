@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Remove Twitter Edge Design",
+    "description": "This extension will removed the 'edge-design' class on Twitter",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://twitter.com/*"],
+            "js": ["content_script.js"]
+        }
+    ],
+    "permissions": [
+       "tabs"
+    ],
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+}
